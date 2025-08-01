@@ -1,0 +1,502 @@
+[
+  {
+    "error": "REST endpoint java.time.LocalDate returns 404",
+    "context": "After migration, endpoint java.time.LocalDate stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Failed to bind property LegacyXmlAdapter",
+    "context": "Spring Boot property LegacyXmlAdapter could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Invalid bean definition for XMLEventReader",
+    "context": "Spring failed to instantiate bean XMLEventReader due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "REST endpoint com.sun.xml.bind.v2.runtime.reflect.Accessor returns 404",
+    "context": "After migration, endpoint com.sun.xml.bind.v2.runtime.reflect.Accessor stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Invalid bean definition for com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Spring failed to instantiate bean com.fasterxml.jackson.databind.ObjectMapper due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "REST endpoint com.fasterxml.jackson.databind.ObjectMapper returns 404",
+    "context": "After migration, endpoint com.fasterxml.jackson.databind.ObjectMapper stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "CORS policy blocked request to java.time.LocalDate",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for java.time.LocalDate.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for java.time.LocalDate."
+  },
+  {
+    "error": "Invalid bean definition for spring.jpa.hibernate.ddl-auto",
+    "context": "Spring failed to instantiate bean spring.jpa.hibernate.ddl-auto due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Illegal reflective access by spring.datasource.url",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by spring.datasource.url.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Failed to bind property LegacyXmlAdapter",
+    "context": "Spring Boot property LegacyXmlAdapter could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Invalid bean definition for com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Spring failed to instantiate bean com.fasterxml.jackson.databind.ObjectMapper due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Illegal reflective access by spring.jpa.hibernate.ddl-auto",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by spring.jpa.hibernate.ddl-auto.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Could not deserialize value of type java.time.LocalDate",
+    "context": "Jackson failed to deserialize response from API after field java.time.LocalDate changed type.",
+    "solution": "Updated DTO field java.time.LocalDate to match expected format or added custom deserializer."
+  },
+  {
+    "error": "CORS policy blocked request to /api/auth/login",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for /api/auth/login.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for /api/auth/login."
+  },
+  {
+    "error": "Could not deserialize value of type com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Jackson failed to deserialize response from API after field com.sun.xml.bind.v2.runtime.reflect.Accessor changed type.",
+    "solution": "Updated DTO field com.sun.xml.bind.v2.runtime.reflect.Accessor to match expected format or added custom deserializer."
+  },
+  {
+    "error": "REST endpoint javax.activation.DataHandler returns 404",
+    "context": "After migration, endpoint javax.activation.DataHandler stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "REST endpoint jakarta.xml.bind.JAXBContext returns 404",
+    "context": "After migration, endpoint jakarta.xml.bind.JAXBContext stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Failed to bind property java.time.LocalDate",
+    "context": "Spring Boot property java.time.LocalDate could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Failed to bind property /api/auth/login",
+    "context": "Spring Boot property /api/auth/login could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Could not deserialize value of type javax.activation.DataHandler",
+    "context": "Jackson failed to deserialize response from API after field javax.activation.DataHandler changed type.",
+    "solution": "Updated DTO field javax.activation.DataHandler to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Invalid bean definition for spring.jpa.hibernate.ddl-auto",
+    "context": "Spring failed to instantiate bean spring.jpa.hibernate.ddl-auto due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Invalid bean definition for javax.activation.DataHandler",
+    "context": "Spring failed to instantiate bean javax.activation.DataHandler due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Failed to bind property com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Spring Boot property com.fasterxml.jackson.databind.ObjectMapper could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Illegal reflective access by UserService",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by UserService.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Failed to bind property javax.activation.DataHandler",
+    "context": "Spring Boot property javax.activation.DataHandler could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Failed to bind property UserService",
+    "context": "Spring Boot property UserService could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Invalid bean definition for UserService",
+    "context": "Spring failed to instantiate bean UserService due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "CORS policy blocked request to spring.jpa.hibernate.ddl-auto",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for spring.jpa.hibernate.ddl-auto.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for spring.jpa.hibernate.ddl-auto."
+  },
+  {
+    "error": "Invalid bean definition for /api/auth/login",
+    "context": "Spring failed to instantiate bean /api/auth/login due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Failed to bind property jakarta.xml.bind.JAXBContext",
+    "context": "Spring Boot property jakarta.xml.bind.JAXBContext could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Illegal reflective access by spring.jpa.hibernate.ddl-auto",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by spring.jpa.hibernate.ddl-auto.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Invalid bean definition for UserService",
+    "context": "Spring failed to instantiate bean UserService due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "CORS policy blocked request to javax.activation.DataHandler",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for javax.activation.DataHandler.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for javax.activation.DataHandler."
+  },
+  {
+    "error": "ClassNotFoundException for com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Spring Boot 3 migration failed due to missing class com.sun.xml.bind.v2.runtime.reflect.Accessor at runtime.",
+    "solution": "Added appropriate dependency for com.sun.xml.bind.v2.runtime.reflect.Accessor or removed deprecated references."
+  },
+  {
+    "error": "CORS policy blocked request to UserService",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for UserService.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for UserService."
+  },
+  {
+    "error": "CORS policy blocked request to spring.datasource.url",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for spring.datasource.url.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for spring.datasource.url."
+  },
+  {
+    "error": "REST endpoint javax.activation.DataHandler returns 404",
+    "context": "After migration, endpoint javax.activation.DataHandler stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "ClassNotFoundException for javax.activation.DataHandler",
+    "context": "Spring Boot 3 migration failed due to missing class javax.activation.DataHandler at runtime.",
+    "solution": "Added appropriate dependency for javax.activation.DataHandler or removed deprecated references."
+  },
+  {
+    "error": "CORS policy blocked request to com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.fasterxml.jackson.databind.ObjectMapper.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.fasterxml.jackson.databind.ObjectMapper."
+  },
+  {
+    "error": "Failed to bind property /api/users",
+    "context": "Spring Boot property /api/users could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "CORS policy blocked request to javax.activation.DataHandler",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for javax.activation.DataHandler.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for javax.activation.DataHandler."
+  },
+  {
+    "error": "CORS policy blocked request to com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.fasterxml.jackson.databind.ObjectMapper.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.fasterxml.jackson.databind.ObjectMapper."
+  },
+  {
+    "error": "REST endpoint com.fasterxml.jackson.databind.ObjectMapper returns 404",
+    "context": "After migration, endpoint com.fasterxml.jackson.databind.ObjectMapper stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Could not deserialize value of type com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Jackson failed to deserialize response from API after field com.sun.xml.bind.v2.runtime.reflect.Accessor changed type.",
+    "solution": "Updated DTO field com.sun.xml.bind.v2.runtime.reflect.Accessor to match expected format or added custom deserializer."
+  },
+  {
+    "error": "ClassNotFoundException for LegacyXmlAdapter",
+    "context": "Spring Boot 3 migration failed due to missing class LegacyXmlAdapter at runtime.",
+    "solution": "Added appropriate dependency for LegacyXmlAdapter or removed deprecated references."
+  },
+  {
+    "error": "Failed to bind property UserService",
+    "context": "Spring Boot property UserService could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "REST endpoint java.time.LocalDate returns 404",
+    "context": "After migration, endpoint java.time.LocalDate stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Invalid bean definition for UserService",
+    "context": "Spring failed to instantiate bean UserService due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Could not deserialize value of type com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Jackson failed to deserialize response from API after field com.fasterxml.jackson.databind.ObjectMapper changed type.",
+    "solution": "Updated DTO field com.fasterxml.jackson.databind.ObjectMapper to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Invalid bean definition for /api/auth/login",
+    "context": "Spring failed to instantiate bean /api/auth/login due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "REST endpoint jakarta.xml.bind.JAXBContext returns 404",
+    "context": "After migration, endpoint jakarta.xml.bind.JAXBContext stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Failed to bind property spring.jpa.hibernate.ddl-auto",
+    "context": "Spring Boot property spring.jpa.hibernate.ddl-auto could not be resolved from application.yml or environment.",
+    "solution": "Verified correct property source, and activated proper Spring profile."
+  },
+  {
+    "error": "Invalid bean definition for spring.datasource.url",
+    "context": "Spring failed to instantiate bean spring.datasource.url due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Illegal reflective access by UserService",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by UserService.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "CORS policy blocked request to /api/users",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for /api/users.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for /api/users."
+  },
+  {
+    "error": "CORS policy blocked request to javax.activation.DataHandler",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for javax.activation.DataHandler.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for javax.activation.DataHandler."
+  },
+  {
+    "error": "REST endpoint XMLEventReader returns 404",
+    "context": "After migration, endpoint XMLEventReader stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Invalid bean definition for XMLEventReader",
+    "context": "Spring failed to instantiate bean XMLEventReader due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "ClassNotFoundException for spring.jpa.hibernate.ddl-auto",
+    "context": "Spring Boot 3 migration failed due to missing class spring.jpa.hibernate.ddl-auto at runtime.",
+    "solution": "Added appropriate dependency for spring.jpa.hibernate.ddl-auto or removed deprecated references."
+  },
+  {
+    "error": "ClassNotFoundException for /api/auth/login",
+    "context": "Spring Boot 3 migration failed due to missing class /api/auth/login at runtime.",
+    "solution": "Added appropriate dependency for /api/auth/login or removed deprecated references."
+  },
+  {
+    "error": "REST endpoint java.time.LocalDate returns 404",
+    "context": "After migration, endpoint java.time.LocalDate stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "ClassNotFoundException for com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Spring Boot 3 migration failed due to missing class com.fasterxml.jackson.databind.ObjectMapper at runtime.",
+    "solution": "Added appropriate dependency for com.fasterxml.jackson.databind.ObjectMapper or removed deprecated references."
+  },
+  {
+    "error": "REST endpoint com.fasterxml.jackson.databind.ObjectMapper returns 404",
+    "context": "After migration, endpoint com.fasterxml.jackson.databind.ObjectMapper stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "REST endpoint java.time.LocalDate returns 404",
+    "context": "After migration, endpoint java.time.LocalDate stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Could not deserialize value of type XMLEventReader",
+    "context": "Jackson failed to deserialize response from API after field XMLEventReader changed type.",
+    "solution": "Updated DTO field XMLEventReader to match expected format or added custom deserializer."
+  },
+  {
+    "error": "ClassNotFoundException for javax.activation.DataHandler",
+    "context": "Spring Boot 3 migration failed due to missing class javax.activation.DataHandler at runtime.",
+    "solution": "Added appropriate dependency for javax.activation.DataHandler or removed deprecated references."
+  },
+  {
+    "error": "Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by com.sun.xml.bind.v2.runtime.reflect.Accessor.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "ClassNotFoundException for jakarta.xml.bind.JAXBContext",
+    "context": "Spring Boot 3 migration failed due to missing class jakarta.xml.bind.JAXBContext at runtime.",
+    "solution": "Added appropriate dependency for jakarta.xml.bind.JAXBContext or removed deprecated references."
+  },
+  {
+    "error": "Could not deserialize value of type /api/users",
+    "context": "Jackson failed to deserialize response from API after field /api/users changed type.",
+    "solution": "Updated DTO field /api/users to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Invalid bean definition for java.time.LocalDate",
+    "context": "Spring failed to instantiate bean java.time.LocalDate due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "Illegal reflective access by javax.activation.DataHandler",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by javax.activation.DataHandler.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "Illegal reflective access by /api/users",
+    "context": "Running with Java 17+ causes warning or crash due to reflective access by /api/users.",
+    "solution": "Replaced with official APIs or added --add-opens argument in JVM options."
+  },
+  {
+    "error": "CORS policy blocked request to java.time.LocalDate",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for java.time.LocalDate.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for java.time.LocalDate."
+  },
+  {
+    "error": "ClassNotFoundException for XMLEventReader",
+    "context": "Spring Boot 3 migration failed due to missing class XMLEventReader at runtime.",
+    "solution": "Added appropriate dependency for XMLEventReader or removed deprecated references."
+  },
+  {
+    "error": "CORS policy blocked request to /api/auth/login",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for /api/auth/login.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for /api/auth/login."
+  },
+  {
+    "error": "ClassNotFoundException for spring.datasource.url",
+    "context": "Spring Boot 3 migration failed due to missing class spring.datasource.url at runtime.",
+    "solution": "Added appropriate dependency for spring.datasource.url or removed deprecated references."
+  },
+  {
+    "error": "CORS policy blocked request to com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.fasterxml.jackson.databind.ObjectMapper.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.fasterxml.jackson.databind.ObjectMapper."
+  },
+  {
+    "error": "CORS policy blocked request to javax.activation.DataHandler",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for javax.activation.DataHandler.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for javax.activation.DataHandler."
+  },
+  {
+    "error": "Invalid bean definition for /api/users",
+    "context": "Spring failed to instantiate bean /api/users due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "CORS policy blocked request to /api/auth/login",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for /api/auth/login.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for /api/auth/login."
+  },
+  {
+    "error": "ClassNotFoundException for /api/auth/login",
+    "context": "Spring Boot 3 migration failed due to missing class /api/auth/login at runtime.",
+    "solution": "Added appropriate dependency for /api/auth/login or removed deprecated references."
+  },
+  {
+    "error": "CORS policy blocked request to java.time.LocalDate",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for java.time.LocalDate.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for java.time.LocalDate."
+  },
+  {
+    "error": "CORS policy blocked request to com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.fasterxml.jackson.databind.ObjectMapper.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.fasterxml.jackson.databind.ObjectMapper."
+  },
+  {
+    "error": "REST endpoint /api/auth/login returns 404",
+    "context": "After migration, endpoint /api/auth/login stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "CORS policy blocked request to com.sun.xml.bind.v2.runtime.reflect.Accessor",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.sun.xml.bind.v2.runtime.reflect.Accessor.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.sun.xml.bind.v2.runtime.reflect.Accessor."
+  },
+  {
+    "error": "Could not deserialize value of type XMLEventReader",
+    "context": "Jackson failed to deserialize response from API after field XMLEventReader changed type.",
+    "solution": "Updated DTO field XMLEventReader to match expected format or added custom deserializer."
+  },
+  {
+    "error": "REST endpoint spring.datasource.url returns 404",
+    "context": "After migration, endpoint spring.datasource.url stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Could not deserialize value of type java.time.LocalDate",
+    "context": "Jackson failed to deserialize response from API after field java.time.LocalDate changed type.",
+    "solution": "Updated DTO field java.time.LocalDate to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Could not deserialize value of type jakarta.xml.bind.JAXBContext",
+    "context": "Jackson failed to deserialize response from API after field jakarta.xml.bind.JAXBContext changed type.",
+    "solution": "Updated DTO field jakarta.xml.bind.JAXBContext to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Could not deserialize value of type javax.activation.DataHandler",
+    "context": "Jackson failed to deserialize response from API after field javax.activation.DataHandler changed type.",
+    "solution": "Updated DTO field javax.activation.DataHandler to match expected format or added custom deserializer."
+  },
+  {
+    "error": "REST endpoint LegacyXmlAdapter returns 404",
+    "context": "After migration, endpoint LegacyXmlAdapter stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Could not deserialize value of type spring.datasource.url",
+    "context": "Jackson failed to deserialize response from API after field spring.datasource.url changed type.",
+    "solution": "Updated DTO field spring.datasource.url to match expected format or added custom deserializer."
+  },
+  {
+    "error": "CORS policy blocked request to com.fasterxml.jackson.databind.ObjectMapper",
+    "context": "Browser denied frontend request after migration due to CORS misconfiguration for com.fasterxml.jackson.databind.ObjectMapper.",
+    "solution": "Enabled CORS using WebMvcConfigurer and added allowed origins for com.fasterxml.jackson.databind.ObjectMapper."
+  },
+  {
+    "error": "REST endpoint spring.jpa.hibernate.ddl-auto returns 404",
+    "context": "After migration, endpoint spring.jpa.hibernate.ddl-auto stopped resolving correctly due to missing @RequestMapping or controller.",
+    "solution": "Added @RestController and verified base path and application context."
+  },
+  {
+    "error": "Could not deserialize value of type javax.activation.DataHandler",
+    "context": "Jackson failed to deserialize response from API after field javax.activation.DataHandler changed type.",
+    "solution": "Updated DTO field javax.activation.DataHandler to match expected format or added custom deserializer."
+  },
+  {
+    "error": "Invalid bean definition for spring.jpa.hibernate.ddl-auto",
+    "context": "Spring failed to instantiate bean spring.jpa.hibernate.ddl-auto due to missing constructor or circular dependency.",
+    "solution": "Added @Autowired constructor or resolved circular reference using @Lazy."
+  },
+  {
+    "error": "ClassNotFoundException for spring.jpa.hibernate.ddl-auto",
+    "context": "Spring Boot 3 migration failed due to missing class spring.jpa.hibernate.ddl-auto at runtime.",
+    "solution": "Added appropriate dependency for spring.jpa.hibernate.ddl-auto or removed deprecated references."
+  },
+  {
+    "error": "ClassNotFoundException for /api/users",
+    "context": "Spring Boot 3 migration failed due to missing class /api/users at runtime.",
+    "solution": "Added appropriate dependency for /api/users or removed deprecated references."
+  }
+]
