@@ -5,7 +5,7 @@ import google.generativeai as genai
 from tqdm import tqdm
 
 # Step 1: Configure Gemini
-genai.configure(api_key="AIzaSyD3mYxeXzN1rNdbHvO4nD5wajU4xXOzd9k")
+genai.configure(api_key="")
 # Step 2: Load your migration error dataset
 with open("migration_errors.json") as f:
     data = json.load(f)
