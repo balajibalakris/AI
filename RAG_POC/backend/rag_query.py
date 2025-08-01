@@ -3,7 +3,7 @@ import json
 import google.generativeai as genai
 
 # Load API key from environment variable
-genai.configure(api_key="AIzaSyD3mYxeXzN1rNdbHvO4nD5wajU4xXOzd9k")
+genai.configure(api_key="")
 # Load the error-solution data
 with open("migration_errors.json") as f:
     data = json.load(f)
