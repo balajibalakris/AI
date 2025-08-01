@@ -9,7 +9,7 @@ import sys
 query = sys.argv[1] if len(sys.argv) > 1 else "default query"
 
 # Setup Gemini
-genai.configure(api_key="AIzaSyD3mYxeXzN1rNdbHvO4nD5wajU4xXOzd9k")
+genai.configure(api_key="APIKEY")
 
 # Load data
 with open("indexed_data.json") as f:
